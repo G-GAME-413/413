@@ -1,0 +1,125 @@
+:root {
+}
+
+
+.markers {
+
+}
+    .markers li {
+        margin-left: -20px;
+        padding-left: 2px;
+    }
+
+
+.checkbox {
+    display: none;
+}
+
+    .checkbox + label {
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        background-color: beige;
+        border-radius: 17px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+
+        .checkbox + label:after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: dimgray;
+            transition: transform 0.4s;
+        }
+
+    .checkbox:checked + label {
+        background-color: var(--color-checkbox);
+    }
+
+        .checkbox:checked + label:after {
+            background-color: var(--color-cell);
+            transform: translateX(20px);
+        }
+
+
+.radio {
+    position: absolute;
+    opacity: 0;
+}
+
+    .radio + label {
+        position: relative;
+        padding: 0 0 0 35px;
+        cursor: pointer;
+    }
+
+        .radio + label:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: beige;
+        }
+
+        .radio + label:after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: var(--color-checkbox);
+            opacity: 0;
+            transition: 0.2s;
+        }
+
+    .radio:checked + label:after {
+        opacity: 1;
+    }
+
+
+.checkbox-background {
+    display: none;
+}
+
+    .checkbox-background + label {
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        background-color: beige;
+        border-radius: 17px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+
+        .checkbox-background + label:after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: dimgray;
+            transition: transform 0.4s;
+        }
+
+    .checkbox-background:checked + label {
+        background-color: var(--color-checkbox);
+    }
+
+        .checkbox-background:checked + label:after {
+            background-color: var(--color-cell);
+            transform: translateX(20px);
+        }
