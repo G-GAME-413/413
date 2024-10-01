@@ -30,19 +30,16 @@
                     <td align="center">
                         <input type="checkbox" id="DarkBackground" name="DarkBackground" class="checkbox-background">
                         <label for="DarkBackground"></label>
-
                         <script src="script_change_bg.js"></script>
                     </td>
                 </tr>
             </table>
         </div>
     </div>
-
     <div class="quote" align="left">
         В Ад и в Рай ведёт одна дорога.<br>
         Направления разные.
     </div>
-
     <div class="container2">
         <div class="block_2_1" align="center">
             Приветствую вас в сообществе «413»<sup>©</sup>. Основная задача моего проекта
@@ -62,7 +59,6 @@
                                   href="https://vk.com/gleb_ivanov_413">
                         </map>
                     </td>
-
                     <td>
                         <a href="https://vk.com/gleb_ivanov_413">vk.com/gleb_ivanov_413</a>
                     </td>
