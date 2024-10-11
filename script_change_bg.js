@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     checkbox.addEventListener('change', () => {
         if (checkbox.checked) {
-            bgImage.style.backgroundImage = 'url(content/img/background/background3.jpg)';
+            bgImage.style.backgroundImage = 'url(content/img/background/background2.jpg)';
             document.documentElement.style.setProperty('--color-bg', 'rgba(79, 34, 63, 0.65)');
             document.documentElement.style.setProperty('--color-cell', 'rgba(40, 21, 33, 1)');
             document.documentElement.style.setProperty('--color-checkbox', 'rgb(148, 66, 104)');
