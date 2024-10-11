@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesCC.css">
     <link rel="stylesheet" href="styles_input.css">
     <link rel="stylesheet" href="styles_colors.css">
+    <link rel="stylesheet" href="styles_fonts.css">
 </head>
 
 <body id="backgroundGeneral">
@@ -151,6 +152,35 @@
                     <script src="script4.js"></script>
                 </div>
             </div>
+        </div>
+
+        <div class="block_2_9">
+            Дата<br>
+            <br>
+
+            <label for="date">Выберите дату</label><br>
+
+            <select id="date" class="select">
+                <option value="agent" class="option">Агент</option>
+                <option value="supportFighter" class="option">Боец поддержки</option>
+                <option value="engineer" class="option">Инженер</option>
+            </select>
+        </div>
+
+        <div class="block_2_10">
+            <div class="container_character">
+                <div class="block_character1" align="justify">
+                    <div id="container_text_date"></div>
+                    <script src="script_date.js"></script>
+                </div>
+            </div>
+        </div>
+
+        <div class="block_2_11">
+            Особенности<br>
+
+            <textarea id="features" class="textarea" placeholder="Опишите физиологические особенности вашего персонажа, чтобы другим игрокам было проще представить ваш облик"></textarea>
+            <label for="features"></label>
         </div>
     </div>
 </body>
